@@ -1,0 +1,128 @@
+body{
+    background-color:rgb(80 18 8);
+    text-align: center;
+}
+#playDrum_head{
+    color: rgb(246, 221, 221);
+    font-family: 'Lobster', cursive;
+    font-size: 150px;
+    margin-top: 20px;
+}
+#drum1{
+    height: 150px;
+    width: 150px;
+    border:10px solid rgb(159 71 71);
+    border-radius: 10px;
+    margin-left: 180px;
+    background-color: rgb(243, 226, 226); 
+    background-image: url(tom1.png);  
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    color: #e39999;
+
+    /* cursor: url(cursor.jpg),auto; */
+    cursor: url(cursor.cur),auto;
+
+}
+#drum2{
+    height: 150px;
+    width: 150px;
+    border:10px solid rgb(159 71 71);
+    border-radius: 10px;
+    margin-left: 30px;
+    background-color:  rgb(243, 222, 222); 
+    background-image: url(tom2.png);  
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    color: rgb(227, 153, 153);
+    cursor: url(cursor.cur),auto;
+}
+
+#drum3{
+    height: 150px;
+    width: 150px;
+    border:10px solid rgb(159 71 71);
+    border-radius: 10px;
+    margin-left: 30px;
+    background-color:  rgb(244, 231, 231); 
+    background-image: url(tom3.png);  
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    color: rgb(227, 153, 153);
+    cursor: url(cursor.cur),auto;
+}
+#drum4{
+    height: 150px;
+    width: 150px;
+    border:10px solid rgb(159 71 71);
+    border-radius: 10px;
+    margin-left: 30px;
+    background-color:  rgb(241, 225, 225); 
+    background-image: url(tom4.png);  
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    color: rgb(227, 153, 153);
+    cursor: url(cursor.cur),auto;
+}
+#drum5{
+    height: 150px;
+    width: 150px;
+    border:10px solid rgb(159 71 71);
+    border-radius: 10px;
+    margin-left: 30px;
+    background-color:  rgb(246, 221, 221); 
+    background-image: url(snare.png);  
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    color: rgb(183 80 80);
+    cursor: url(cursor.cur),auto;
+   
+}
+#drum6{
+    height: 150px;
+    width: 150px;
+    border:10px solid rgb(159 71 71);
+    border-radius: 10px;
+    margin-left: 30px;
+    background-color: rgb(246, 221, 221); 
+    background-image: url(crash.png);  
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    color: rgb(215, 125, 125);
+    cursor: url(cursor.cur),auto;
+}
+
+#drum7{
+    height: 150px;
+    width: 150px;
+    border:10px solid rgb(159 71 71);
+    border-radius: 10px;
+    margin-left: 30px;
+    background-color: rgb(246, 221, 221); 
+    background-image: url(kick.png);  
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    color: rgb(221, 112, 112);
+    cursor: url(cursor.cur),auto;
+}
+#playDrum_row{
+    margin-top: 140px;
+    display: flex;
+}
+#playDrum_foot{
+    width: 600px;
+
+    box-shadow: 0px 0px 8px 8px rgb(58 0 0);
+    border-radius: 9px;
+    background:linear-gradient(to right,rgb(148, 16, 16),rgb(178, 101, 101),rgb(151, 0, 0));
+    margin: auto;
+    padding: 15px 20px 15px 20px;
+    margin-top: 100px;
+    font-family: 'Comfortaa', cursive;
+}
+#foothead{
+    margin:0px;
+}
+.opacity{
+    opacity: 0.3;
+}
